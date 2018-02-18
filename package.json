@@ -1,0 +1,43 @@
+{
+  "name": "node-push-notification-sns-transport",
+  "version": "0.1.0",
+  "description": "AWS SNS transport for node-push-notification",
+  "author": "Continuation Labs <contact@continuation.io> (http://continuation.io/)",
+  "main": "lib/index.js",
+  "homepage": "https://github.com/continuationlabs/node-push-notification-sns-transport",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/continuationlabs/node-push-notification-sns-transport.git"
+  },
+  "bugs": {
+    "url": "https://github.com/continuationlabs/node-push-notification-sns-transport/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "lint": "belly-button -f",
+    "pretest": "npm run lint",
+    "test": "lab -v -a code -t 100"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "dependencies": {
+    "aws-sdk": "2.197.0"
+  },
+  "devDependencies": {
+    "aws-sdk-mock": "1.7.0",
+    "belly-button": "4.x.x",
+    "cb-barrier": "1.x.x",
+    "code": "5.x.x",
+    "lab": "15.x.x",
+    "node-push-notification": "0.x.x"
+  },
+  "keywords": [
+    "push",
+    "notification",
+    "notifications",
+    "push notifications",
+    "SNS",
+    "AWS"
+  ]
+}
