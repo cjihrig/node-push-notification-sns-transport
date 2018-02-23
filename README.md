@@ -3,8 +3,8 @@
 [![Current Version](https://img.shields.io/npm/v/node-push-notification-sns-transport.svg)](https://www.npmjs.org/package/node-push-notification-sns-transport)
 [![Build Status via Travis CI](https://travis-ci.org/continuationlabs/node-push-notification-sns-transport.svg?branch=master)](https://travis-ci.org/continuationlabs/node-push-notification-sns-transport)
 ![Dependencies](http://img.shields.io/david/continuationlabs/node-push-notification-sns-transport.svg)
+[![belly-button-style](https://img.shields.io/badge/eslint-bellybutton-4B32C3.svg)](https://github.com/continuationlabs/belly-button)
 
-[![belly-button-style](https://cdn.rawgit.com/continuationlabs/belly-button/master/badge.svg)](https://github.com/continuationlabs/belly-button)
 
 `node-push-notification-sns-transport` provides an interface for sending push notifications via [AWS SNS](https://aws.amazon.com/sns/). This module is meant to be used with [`node-push-notification`](https://github.com/continuationlabs/node-push-notification), but can be used as a standalone module.
 
